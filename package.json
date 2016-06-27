@@ -1,0 +1,16 @@
+{
+  "name": "openvpn-github-auth",
+  "version": "1.0.0",
+  "description": "Basic auth proxy using a filtered list of GitHub usernames for openvpn-httpbasic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^1.0.4",
+    "request": "^2.72.0"
+  }
+}
